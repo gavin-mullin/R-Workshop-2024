@@ -1,3 +1,2 @@
 winter-2024-r-workshop
-bookdownrender_bookindex.rmd
 r-markdown
