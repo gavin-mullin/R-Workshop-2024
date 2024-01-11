@@ -1,8 +1,0 @@
----
-title: "1-Introduction"
-output: html_document
-date: "`r Sys.Date()`"
----
-
-# R Markdown
-

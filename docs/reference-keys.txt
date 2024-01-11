@@ -1,2 +1,6 @@
-winter-2024-r-workshop
-r-markdown
+welcome
+about-this-workshop
+test
+introduction
+installing-rstudio
+what-is-this

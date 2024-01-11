@@ -1,10 +1,15 @@
 --- 
 title: "Winter 2024 R Workshop"
 author: "Gavin Mullin & Yanzi Huang"
-date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
+# Welcome!
+<center>
+![](https://pyxis.nymag.com/v1/imgs/836/766/6d48af4bc721045a59847a4459cc53e570-drag-race-laganja.jpg)
+</center>
 
-# Winter 2024 R Workshop
+## About this workshop
 Welcome to the Winter 2024 R Workshop with the Mende-Siedlecki Lab! Gavin and Yanzi are very excited to work with you all and show you the basics to RStudio!
 
+### Test
+This is a test

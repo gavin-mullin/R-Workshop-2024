@@ -1,0 +1,8 @@
+
+# Introduction
+
+## Installing RStudio
+The first step is to of course download RStudio! This is a FREE software that does not require authorization or a university email. Here is the link: https://posit.co/download/rstudio-desktop/
+
+## What is this?
+https://www.youtube.com/watch?v=FIrsOBy5k58&t=110s
