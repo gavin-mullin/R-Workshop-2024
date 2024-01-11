@@ -1,20 +1,10 @@
 --- 
-title: "1 - R Workshop 2024"
-author: "Gavin Mullin and Yanzi Huang"
-date: "Winter 2024"
+title: "Winter 2024 R Workshop"
+author: "Gavin Mullin & Yanzi Huang"
+date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-documentclass: book
-bibliography: [book.bib, packages.bib]
-# url: 'https://github.com/gavin-mullin/R-Workshop-2024'
-# cover-image: path to the social sharing image like images/cover.jpg
-description: |
-  Winter 2024 R Workshop in the Mende-Siedlecki lab.
-link-citations: yes
-# github-repo: rstudio/bookdown-demo
 ---
 
-```{r, eval=FALSE}
-bookdown::render_book()
-bookdown::serve_book()
-```
+# Winter 2024 R Workshop
+# bookdown::render_book("index.Rmd")
 
