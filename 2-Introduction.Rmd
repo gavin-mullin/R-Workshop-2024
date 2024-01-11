@@ -1,8 +1,6 @@
 
 # Introduction
 
-
-
 ## What are R and RStudio?
 First, it should be noted that `R` and `RStudio` are actually two different things:
  
