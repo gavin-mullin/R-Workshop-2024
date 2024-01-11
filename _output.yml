@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">R Workshop 2024</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li><a href="https://github.com/gavin-mullin/R-Workshop-2024" target="blank">Published with bookdown</a></li>
     edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
