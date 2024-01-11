@@ -1,0 +1,21 @@
+# Getting started
+
+## Script vs. notebook vs. markdown?
+There are essentially three different file types to note when it comes to creating R code: script, notebook, and markdown. To put it simply, script is all manual and notebook/markdown are interactive scripts. The exact differece isn't important right now, but some people have preferences for one of the other. This course will be using notebooks to easily send and access "assignments".
+
+## Basic operations
+Here, we will be going over the very basic operations involved in coding. Most of coding relates to mathematics and logic! For example, below is a code chunk where I will display some of the operations:
+
+```{r}
+#Addition
+8 + 4
+#Subtraction
+8 - 4
+#Multiplication
+8 * 4
+#Division
+8 / 4
+#Exponents
+8 ^ 4
+```
+

@@ -24,6 +24,9 @@ For Mac users
  - [`RStudio` for Mac](https://download1.rstudio.org/electron/macos/RStudio-2023.12.0-369.dmg)
  
 
-## Getting started
-Please watch this short 6 minute video to get started with RStudio. This video does include some simple coding as an example, but don't worry if you don't understand that for now. Focus on the interface for the time being.
-https://www.youtube.com/watch?v=FIrsOBy5k58&t=242s
+## The RStudio interface
+Please watch this short 6 minute video to get started with RStudio. This video does include some simple coding as an example, but don't worry if you don't understand that for now. Focus just on the interface for the time being.
+https://www.youtube.com/watch?v=FIrsOBy5k58&t=242s  
+
+
+Feel free to change the theme of your RStudio window (like changing it to dark mode) before we go further! You can access this by Tools -> Global Options -> Apperance, and then selecting a new theme. Highlight them all and see what you like, or feel free to change your font size or type.  

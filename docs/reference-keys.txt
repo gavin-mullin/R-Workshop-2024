@@ -1,12 +1,11 @@
 welcome
 about-this-workshop
-introduction
-installing-rstudio
-what-is-this
-what-is-r-and-rstudio
 important-note
-references
 acknowledgements
-installing-r-and-rstudio
+introduction
 what-are-r-and-rstudio
+installing-r-and-rstudio
+the-rstudio-interface
 getting-started
+basic-operations
+script-vs.-notebook-vs.-markdown

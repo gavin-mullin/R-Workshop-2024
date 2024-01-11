@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Page not found | R Workshop</title>
-  <meta name="description" content="Page not found | R Workshop" />
+  <title>Chapter 3 Getting started | R Workshop</title>
+  <meta name="description" content="Chapter 3 Getting started | R Workshop" />
   <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Page not found | R Workshop" />
+  <meta property="og:title" content="Chapter 3 Getting started | R Workshop" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Page not found | R Workshop" />
+  <meta name="twitter:title" content="Chapter 3 Getting started | R Workshop" />
   
   
   
@@ -29,7 +29,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
+<link rel="prev" href="introduction.html"/>
 
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -175,18 +175,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="page-not-found" class="section level1">
-<h1>Page not found</h1>
-<p>The page you requested cannot be found (perhaps it was moved or renamed).</p>
-<p>You may want to try searching to find the page's new location, or use
-the table of contents to find the page you are looking for.</p>
+<div id="getting-started" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Getting started<a href="getting-started.html#getting-started" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="script-vs.-notebook-vs.-markdown" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Script vs. notebook vs. markdown?<a href="getting-started.html#script-vs.-notebook-vs.-markdown" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There are essentially three different file types to note when it comes to creating R code: script, notebook, and markdown. To put it simply, script is all manual and notebook/markdown are interactive scripts. The exact differece isn’t important right now, but some people have preferences for one of the other. This course will be using notebooks to easily send and access “assignments”.</p>
+</div>
+<div id="basic-operations" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Basic operations<a href="getting-started.html#basic-operations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Here, we will be going over the very basic operations involved in coding. Most of coding relates to mathematics and logic! For example, below is a code chunk where I will display some of the operations:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="getting-started.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Addition</span></span>
+<span id="cb1-2"><a href="getting-started.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span> <span class="sc">+</span> <span class="dv">4</span></span></code></pre></div>
+<pre><code>## [1] 12</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="getting-started.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Subtraction</span></span>
+<span id="cb3-2"><a href="getting-started.html#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span> <span class="sc">-</span> <span class="dv">4</span></span></code></pre></div>
+<pre><code>## [1] 4</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="getting-started.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Multiplication</span></span>
+<span id="cb5-2"><a href="getting-started.html#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span> <span class="sc">*</span> <span class="dv">4</span></span></code></pre></div>
+<pre><code>## [1] 32</code></pre>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="getting-started.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Division</span></span>
+<span id="cb7-2"><a href="getting-started.html#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span> <span class="sc">/</span> <span class="dv">4</span></span></code></pre></div>
+<pre><code>## [1] 2</code></pre>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="getting-started.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Exponents</span></span>
+<span id="cb9-2"><a href="getting-started.html#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span> <span class="sc">^</span> <span class="dv">4</span></span></code></pre></div>
+<pre><code>## [1] 4096</code></pre>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
+<a href="introduction.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
     </div>
   </div>
@@ -218,7 +239,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/gavin-mullin/R-Workshop-2024/edit/main/%s",
+"link": "https://github.com/gavin-mullin/R-Workshop-2024/edit/main/3-GettingStarted.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -226,7 +247,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/gavin-mullin/R-Workshop-2024/blob/main/%s",
+"link": "https://github.com/gavin-mullin/R-Workshop-2024/blob/main/3-GettingStarted.Rmd",
 "text": null
 },
 "download": null,
