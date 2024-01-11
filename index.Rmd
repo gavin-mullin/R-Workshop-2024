@@ -2,6 +2,26 @@
 title: "Winter 2024 R Workshop"
 author: "Gavin Mullin & Yanzi Huang"
 site: bookdown::bookdown_site
+output:
+      bookdown::gitbook:
+        self_contained: true
+        css: css/style.css
+        split_by: section+number
+        config:
+          toc:
+            collapse: section
+            before: |
+              <li><a href="./index.html">Documentation</a></li>
+            after: null
+          toolbar:
+            position: fixed
+          edit: null
+          download: null
+          search: yes
+          sharing: false
+          info: yes
+      bookdown::html_book:
+        css: css/toc.css
 ---
 # Welcome!
 <center>
