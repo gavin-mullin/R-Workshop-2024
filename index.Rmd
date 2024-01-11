@@ -6,5 +6,5 @@ site: bookdown::bookdown_site
 ---
 
 # Winter 2024 R Workshop
-# bookdown::render_book("index.Rmd")
+Welcome to the Winter 2024 R Workshop with the Mende-Siedlecki Lab! Gavin and Yanzi are very excited to work with you all and show you the basics to RStudio!
 
