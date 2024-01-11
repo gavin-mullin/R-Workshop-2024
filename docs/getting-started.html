@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 Getting started | R Workshop</title>
-  <meta name="description" content="Chapter 3 Getting started | R Workshop" />
+  <title>Chapter 3 Getting started | Assignment 1 (Chapter 3)</title>
+  <meta name="description" content="Chapter 3 Getting started | Assignment 1 (Chapter 3)" />
   <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 Getting started | R Workshop" />
+  <meta property="og:title" content="Chapter 3 Getting started | Assignment 1 (Chapter 3)" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 Getting started | R Workshop" />
+  <meta name="twitter:title" content="Chapter 3 Getting started | Assignment 1 (Chapter 3)" />
   
   
   
@@ -167,7 +167,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">R Workshop</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Assignment 1 (Chapter 3)</a>
           </h1>
         </div>
 
@@ -183,22 +183,51 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="basic-operations" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> Basic operations<a href="getting-started.html#basic-operations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Here, we will be going over the very basic operations involved in coding. Most of coding relates to mathematics and logic! For example, below is a code chunk where I will display some of the operations:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="getting-started.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Addition</span></span>
-<span id="cb1-2"><a href="getting-started.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span> <span class="sc">+</span> <span class="dv">4</span></span></code></pre></div>
-<pre><code>## [1] 12</code></pre>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="getting-started.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Subtraction</span></span>
-<span id="cb3-2"><a href="getting-started.html#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span> <span class="sc">-</span> <span class="dv">4</span></span></code></pre></div>
-<pre><code>## [1] 4</code></pre>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="getting-started.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Multiplication</span></span>
-<span id="cb5-2"><a href="getting-started.html#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span> <span class="sc">*</span> <span class="dv">4</span></span></code></pre></div>
-<pre><code>## [1] 32</code></pre>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="getting-started.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Division</span></span>
-<span id="cb7-2"><a href="getting-started.html#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span> <span class="sc">/</span> <span class="dv">4</span></span></code></pre></div>
-<pre><code>## [1] 2</code></pre>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="getting-started.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Exponents</span></span>
-<span id="cb9-2"><a href="getting-started.html#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="dv">8</span> <span class="sc">^</span> <span class="dv">4</span></span></code></pre></div>
-<pre><code>## [1] 4096</code></pre>
+<p>Here, we will be going over the very basic operations involved in coding. Most of coding relates to mathematics and logic! For example, below is a table that features basic math (addition, subject, etc.), how it is written in R (pay attention to the symbols used), and its result.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Math</th>
+<th><code>R</code> code</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(8 + 4\)</span></td>
+<td><code>8 + 4</code></td>
+<td>12</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(8 - 4\)</span></td>
+<td><code>8 - 4</code></td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(8 \cdot4\)</span></td>
+<td><code>8 * 4</code></td>
+<td>32</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(8 / 4\)</span></td>
+<td><code>8 / 4</code></td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(8^4\)</span></td>
+<td><code>8 ^ 4</code></td>
+<td>4096</td>
+</tr>
+</tbody>
+</table>
+
+<p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook. When you execute code within the notebook, the results appear beneath the code.</p>
+<p>Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Ctrl+Shift+Enter</em>.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="getting-started.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(cars)</span></code></pre></div>
+<p><img src="bookdownproj_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>Add a new chunk by clicking the <em>Insert Chunk</em> button on the toolbar or by pressing <em>Ctrl+Alt+I</em>.</p>
+<p>When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the <em>Preview</em> button or press <em>Ctrl+Shift+K</em> to preview the HTML file).</p>
+<p>The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike <em>Knit</em>, <em>Preview</em> does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.</p>
 
 </div>
 </div>
@@ -262,6 +291,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

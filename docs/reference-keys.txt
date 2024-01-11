@@ -7,5 +7,5 @@ what-are-r-and-rstudio
 installing-r-and-rstudio
 the-rstudio-interface
 getting-started
-basic-operations
 script-vs.-notebook-vs.-markdown
+basic-operations
