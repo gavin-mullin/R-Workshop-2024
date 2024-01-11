@@ -1,6 +1,12 @@
 welcome
 about-this-workshop
-test
 introduction
 installing-rstudio
 what-is-this
+what-is-r-and-rstudio
+important-note
+references
+acknowledgements
+installing-r-and-rstudio
+what-are-r-and-rstudio
+getting-started

@@ -1,7 +1,8 @@
 --- 
-title: "Winter 2024 R Workshop"
+title: "R Workshop"
 author: "Gavin Mullin & Yanzi Huang"
 site: bookdown::bookdown_site
+link-citations: yes
 
 ---
 # Welcome!
@@ -10,7 +11,10 @@ site: bookdown::bookdown_site
 </center>
 
 ## About this workshop
-Welcome to the Winter 2024 R Workshop with the Mende-Siedlecki Lab! Gavin and Yanzi are very excited to work with you all and show you the basics to RStudio!
+Welcome to the Winter 2024 R Workshop with the Mende-Siedlecki Lab! Gavin and Yanzi are very excited to work with you all! Our goal is to teach you the basics and possibilities of RStudio, along with introducing you to resources and tools that will help you independently work with RStudio.
 
-### Test
-This is a test
+## Important note
+Before we begin, we want to emphasize that learning R/RStudio (or any type of programming) is challenging and likely a novel topic for most of you. Therefore, it is completely normal to feel confused or overwhelmed at times. Please do not worry if you do not understand everything perfectly right away! Know that you will NOT be judged for asking questions or needing more time to learn certain topics. We are here to help!
+
+## Acknowledgements
+- [David Dalpiaz](https://book.stat420.org/)

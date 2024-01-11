@@ -1,8 +1,31 @@
 
 # Introduction
 
-## Installing RStudio
-The first step is to of course download RStudio! This is a FREE software that does not require authorization or a university email. Here is the link: https://posit.co/download/rstudio-desktop/
 
-## What is this?
-https://www.youtube.com/watch?v=FIrsOBy5k58&t=110s
+
+## What are R and RStudio?
+First, it should be noted that `R` and `RStudio` are actually two different things:
+ 
+ - `R` is a programming language
+ - `RStudio` is an application that provides a more user-friendly environment to use `R`
+
+But besides that, what is the importance of R? R is a powerful tool for statistics and data analysis, and is very attractive for both research and data science broadly. On top of this, it is accessible; R and RStudio are both free and open-source. This accessibility has resulted in a large community where learning and getting help is fast and easy.
+ 
+
+## Installing R and RStudio
+You will have to download both `R` and `RStudio` for this workshop (again, these are both FREE!!). Here is a link to the general website (https://posit.co/download/rstudio-desktop/), but I will also embed specific links below for a direct download: 
+
+For Window users
+
+ - [`R` for Windows](https://cran.rstudio.com/bin/windows/base/R-4.3.2-win.exe)
+ - [`RStudio` for Windows](https://download1.rstudio.org/electron/windows/RStudio-2023.12.0-369.exe)
+ 
+For Mac users
+
+ - [`R` for Mac](https://cran.rstudio.com/bin/macosx/big-sur-arm64/base/R-4.3.2-arm64.pkg)
+ - [`RStudio` for Mac](https://download1.rstudio.org/electron/macos/RStudio-2023.12.0-369.dmg)
+ 
+
+## Getting started
+Please watch this short 6 minute video to get started with RStudio. This video does include some simple coding as an example, but don't worry if you don't understand that for now. Focus on the interface for the time being.
+https://www.youtube.com/watch?v=FIrsOBy5k58&t=242s
