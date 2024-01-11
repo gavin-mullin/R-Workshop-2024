@@ -30,3 +30,6 @@ https://www.youtube.com/watch?v=FIrsOBy5k58&t=242s
 
 
 Feel free to change the theme of your RStudio window (like changing it to dark mode) before we go further! You can access this by Tools -> Global Options -> Apperance, and then selecting a new theme. Highlight them all and see what you like, or feel free to change your font size or type.  
+
+## Script vs. notebook vs. markdown?
+There are essentially three different file types to note when it comes to creating R code: script, notebook, and markdown. To put it simply, script is all manual and notebook/markdown are interactive scripts. The exact differece isn't important right now, but some people have preferences for one or the other. This course will be using notebooks.

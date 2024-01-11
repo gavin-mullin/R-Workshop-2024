@@ -86,11 +86,15 @@
 <li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#what-are-r-and-rstudio"><i class="fa fa-check"></i><b>2.1</b> What are R and RStudio?</a></li>
 <li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#installing-r-and-rstudio"><i class="fa fa-check"></i><b>2.2</b> Installing R and RStudio</a></li>
 <li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#the-rstudio-interface"><i class="fa fa-check"></i><b>2.3</b> The RStudio interface</a></li>
+<li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#script-vs.-notebook-vs.-markdown"><i class="fa fa-check"></i><b>2.4</b> Script vs. notebook vs. markdown?</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>3</b> Getting started</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="getting-started.html"><a href="getting-started.html#script-vs.-notebook-vs.-markdown"><i class="fa fa-check"></i><b>3.1</b> Script vs. notebook vs. markdown?</a></li>
-<li class="chapter" data-level="3.2" data-path="getting-started.html"><a href="getting-started.html#basic-operations"><i class="fa fa-check"></i><b>3.2</b> Basic operations</a></li>
+<li class="chapter" data-level="3.1" data-path="getting-started.html"><a href="getting-started.html#basic-operations"><i class="fa fa-check"></i><b>3.1</b> Basic operations</a></li>
+<li class="chapter" data-level="3.2" data-path="getting-started.html"><a href="getting-started.html#logical-operators"><i class="fa fa-check"></i><b>3.2</b> Logical operators</a></li>
+<li class="chapter" data-level="3.3" data-path="getting-started.html"><a href="getting-started.html#basic-data-types"><i class="fa fa-check"></i><b>3.3</b> Basic data types</a></li>
+<li class="chapter" data-level="3.4" data-path="getting-started.html"><a href="getting-started.html#data-structures"><i class="fa fa-check"></i><b>3.4</b> Data structures</a></li>
+<li class="chapter" data-level="3.5" data-path="getting-started.html"><a href="getting-started.html#variable-assignment"><i class="fa fa-check"></i><b>3.5</b> Variable assignment</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -113,12 +117,8 @@
             <section class="normal" id="section-">
 <div id="getting-started" class="section level1 hasAnchor" number="3">
 <h1><span class="header-section-number">Chapter 3</span> Getting started<a href="getting-started.html#getting-started" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="script-vs.-notebook-vs.-markdown" class="section level2 hasAnchor" number="3.1">
-<h2><span class="header-section-number">3.1</span> Script vs. notebook vs. markdown?<a href="getting-started.html#script-vs.-notebook-vs.-markdown" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>There are essentially three different file types to note when it comes to creating R code: script, notebook, and markdown. To put it simply, script is all manual and notebook/markdown are interactive scripts. The exact differece isn’t important right now, but some people have preferences for one of the other. This course will be using notebooks to easily send and access “assignments”.</p>
-</div>
-<div id="basic-operations" class="section level2 hasAnchor" number="3.2">
-<h2><span class="header-section-number">3.2</span> Basic operations<a href="getting-started.html#basic-operations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="basic-operations" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Basic operations<a href="getting-started.html#basic-operations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Here, we will be going over the very basic operations involved in coding. Most of coding relates to mathematics and logic! For example, below is a table that features basic math (addition, subject, etc.), how it is written in R (pay attention to the symbols used), and its result.</p>
 <table>
 <thead>
@@ -156,6 +156,124 @@
 </tr>
 </tbody>
 </table>
+</div>
+<div id="logical-operators" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Logical operators<a href="getting-started.html#logical-operators" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<table>
+<colgroup>
+<col width="15%" />
+<col width="35%" />
+<col width="35%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Summary</th>
+<th>Example</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>x &lt; y</code></td>
+<td><code>x</code> less than <code>y</code></td>
+<td><code>3 &lt; 42</code></td>
+<td>TRUE</td>
+</tr>
+<tr class="even">
+<td><code>x &gt; y</code></td>
+<td><code>x</code> greater than <code>y</code></td>
+<td><code>3 &gt; 42</code></td>
+<td>FALSE</td>
+</tr>
+<tr class="odd">
+<td><code>x &lt;= y</code></td>
+<td><code>x</code> less than or equal to <code>y</code></td>
+<td><code>3 &lt;= 42</code></td>
+<td>TRUE</td>
+</tr>
+<tr class="even">
+<td><code>x &gt;= y</code></td>
+<td><code>x</code> greater than or equal to <code>y</code></td>
+<td><code>3 &gt;= 42</code></td>
+<td>FALSE</td>
+</tr>
+<tr class="odd">
+<td><code>x == y</code></td>
+<td><code>x</code>equal to <code>y</code></td>
+<td><code>3 == 42</code></td>
+<td>FALSE</td>
+</tr>
+<tr class="even">
+<td><code>x != y</code></td>
+<td><code>x</code> not equal to <code>y</code></td>
+<td><code>3 != 42</code></td>
+<td>TRUE</td>
+</tr>
+<tr class="odd">
+<td><code>!x</code></td>
+<td>not <code>x</code></td>
+<td><code>!(3 &gt; 42)</code></td>
+<td>TRUE</td>
+</tr>
+<tr class="even">
+<td><code>x | y</code></td>
+<td><code>x</code> or <code>y</code></td>
+<td><code>(3 &gt; 42) | TRUE</code></td>
+<td>TRUE</td>
+</tr>
+<tr class="odd">
+<td><code>x &amp; y</code></td>
+<td><code>x</code> and <code>y</code></td>
+<td><code>(3 &lt; 4) &amp; ( 42 &gt; 13)</code></td>
+<td>TRUE</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="basic-data-types" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Basic data types<a href="getting-started.html#basic-data-types" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There are 5 data types to know of:</p>
+<ul>
+<li>Character</li>
+<li>Numeric</li>
+<li>Integer</li>
+<li>Logical</li>
+<li>Complex</li>
+</ul>
+</div>
+<div id="data-structures" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Data structures<a href="getting-started.html#data-structures" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<table>
+<thead>
+<tr class="header">
+<th>Dimension</th>
+<th><strong>Homogeneous</strong></th>
+<th><strong>Heterogeneous</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Vector</td>
+<td>List</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Matrix</td>
+<td>Data Frame</td>
+</tr>
+<tr class="odd">
+<td>3+</td>
+<td>Array</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="variable-assignment" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Variable assignment<a href="getting-started.html#variable-assignment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 
 </div>
 </div>

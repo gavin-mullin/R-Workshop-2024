@@ -9,3 +9,9 @@ the-rstudio-interface
 getting-started
 script-vs.-notebook-vs.-markdown
 basic-operations
+variable-assignment
+basic-data-types
+script-vs.-notebook-vs.-markdown-1
+logical-operators
+data-structures
+section

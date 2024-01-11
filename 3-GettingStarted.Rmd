@@ -1,9 +1,6 @@
 
 # Getting started
 
-## Script vs. notebook vs. markdown?
-There are essentially three different file types to note when it comes to creating R code: script, notebook, and markdown. To put it simply, script is all manual and notebook/markdown are interactive scripts. The exact differece isn't important right now, but some people have preferences for one of the other. This course will be using notebooks to easily send and access "assignments".
-
 ## Basic operations
 Here, we will be going over the very basic operations involved in coding. Most of coding relates to mathematics and logic! For example, below is a table that features basic math (addition, subject, etc.), how it is written in R (pay attention to the symbols used), and its result.
 
@@ -15,3 +12,34 @@ Here, we will be going over the very basic operations involved in coding. Most o
 | $8 / 4$       | `8 / 4` | `r 8 / 4` |
 | $8^4$         | `8 ^ 4` | `r 8 ^ 4` |
 
+## Logical operators
+| Operator | Summary               | Example               | Result |
+|----------|-----------------------|-----------------------|--------|
+| `x < y`  | `x` less than `y`                | `3 < 42`               | `r 3 < 42`               |
+| `x > y`  | `x` greater than `y`             | `3 > 42`               | `r 3 > 42`               |
+| `x <= y` | `x` less than or equal to `y`    | `3 <= 42`              | `r 3 <= 42`              |
+| `x >= y` | `x` greater than or equal to `y` | `3 >= 42`              | `r 3 >= 42`              |
+| `x == y` | `x`equal to `y`                  | `3 == 42`              | `r 3 == 42`              |
+| `x != y` | `x` not equal to `y`             | `3 != 42`              | `r 3 != 42`              |
+| `!x`     | not `x`                          | `!(3 > 42)`            | `r !(3 > 42)`            |
+| `x | y`  | `x` or `y`                       | `(3 > 42) | TRUE`      | `r (3 > 42) | TRUE`      |
+| `x & y`  | `x` and `y`                      | `(3 < 4) & ( 42 > 13)` | `r (3 < 4) & ( 42 > 13)` |
+
+
+## Basic data types
+There are 5 data types to know of:
+
+- Character
+- Numeric
+- Integer
+- Logical
+- Complex
+
+## Data structures
+| Dimension | **Homogeneous** | **Heterogeneous** |
+|-----------|-----------------|-------------------|
+| 1         | Vector          | List              |
+| 2         | Matrix          | Data Frame        |
+| 3+        | Array           |                   |
+
+## Variable assignment
