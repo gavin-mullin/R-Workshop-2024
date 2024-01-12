@@ -42,4 +42,3 @@ There are 5 data types to know of:
 | 2         | Matrix          | Data Frame        |
 | 3+        | Array           |                   |
 
-## Variable assignment
