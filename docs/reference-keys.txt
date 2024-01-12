@@ -16,3 +16,4 @@ working-with-data
 variable-assignment
 summary-statistics
 plotting
+r-file-types

@@ -86,7 +86,7 @@
 <li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#what-are-r-and-rstudio"><i class="fa fa-check"></i><b>2.1</b> What are R and RStudio?</a></li>
 <li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#installing-r-and-rstudio"><i class="fa fa-check"></i><b>2.2</b> Installing R and RStudio</a></li>
 <li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#the-rstudio-interface"><i class="fa fa-check"></i><b>2.3</b> The RStudio interface</a></li>
-<li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#script-vs.-notebook-vs.-markdown"><i class="fa fa-check"></i><b>2.4</b> Script vs. notebook vs. markdown?</a></li>
+<li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#r-file-types"><i class="fa fa-check"></i><b>2.4</b> R file types</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>3</b> Getting started</a>
 <ul>
@@ -129,7 +129,7 @@
 <li><code>R</code> is a programming language</li>
 <li><code>RStudio</code> is an application that provides a more user-friendly environment to use <code>R</code></li>
 </ul>
-<p>But besides that, what is the importance of R? R is a powerful tool for statistics and data analysis, and is very attractive for both research and data science broadly. On top of this, it is accessible; R and RStudio are both free and open-source. This accessibility has resulted in a large community where learning and getting help is fast and easy.</p>
+<p>But besides that, what is the importance of R? R is a powerful tool for statistics and data analysis, and is very attractive for both research and data science broadly. On top of this, it is accessible; R and RStudio are both free and open-source. This accessibility has resulted in a large community where learning and getting help is fast and easy. Please watch this short 5 minute video: <a href="https://www.youtube.com/watch?v=IJc2J-qewiU" class="uri">https://www.youtube.com/watch?v=IJc2J-qewiU</a></p>
 </div>
 <div id="installing-r-and-rstudio" class="section level2 hasAnchor" number="2.2">
 <h2><span class="header-section-number">2.2</span> Installing R and RStudio<a href="introduction.html#installing-r-and-rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -149,11 +149,19 @@
 <h2><span class="header-section-number">2.3</span> The RStudio interface<a href="introduction.html#the-rstudio-interface" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Please watch this short 6 minute video to get started with RStudio. This video does include some simple coding as an example, but don’t worry if you don’t understand that for now. Focus just on the interface for the time being.
 <a href="https://www.youtube.com/watch?v=FIrsOBy5k58&amp;t=242s" class="uri">https://www.youtube.com/watch?v=FIrsOBy5k58&amp;t=242s</a></p>
-<p>Feel free to change the theme of your RStudio window (like changing it to dark mode) before we go further! You can access this by Tools -&gt; Global Options -&gt; Apperance, and then selecting a new theme. Highlight them all and see what you like, or feel free to change your font size or type.</p>
+<div class="figure">
+<img src="https://datacarpentry.org/genomics-r-intro/fig/rstudio_session_4pane_layout.png" alt="" />
+<p class="caption">Overview of the RStudio interface</p>
 </div>
-<div id="script-vs.-notebook-vs.-markdown" class="section level2 hasAnchor" number="2.4">
-<h2><span class="header-section-number">2.4</span> Script vs. notebook vs. markdown?<a href="introduction.html#script-vs.-notebook-vs.-markdown" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>There are essentially three different file types to note when it comes to creating R code: script, notebook, and markdown. To put it simply, script is all manual and notebook/markdown are interactive scripts. The exact differece isn’t important right now, but some people have preferences for one or the other. This course will be using notebooks.</p>
+<p>Feel free to change the theme of your RStudio environemt (like changing it to a much better dark mode) before we go further! You can do this by navigating to Tools -&gt; Global Options -&gt; Appearance. Below is an image of what this window looks like. Here, you are about to change the editor theme, along with the font and font size if desired.</p>
+<div class="figure">
+<img src="https://docs.posit.co/ide/user/ide/guide/ui/images/rstudio-theme.png" style="width:75.0%" alt="" />
+<p class="caption">Apperance editor window</p>
+</div>
+</div>
+<div id="r-file-types" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> R file types<a href="introduction.html#r-file-types" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Navigating to File -&gt; New File, you can see there are a ton of different file options to choose from. For this course (and honestly even for our lab), you really only need to know about two of these options: R Script and R Notebook. These are documents where you are able to write and execute code. The difference between the two is formatting. R Script is essentially a blank word document whereas R Notebook allows more interactive elements. Choosing between the two is largely based on preference or sometimes the task. For this course, we will be using R Notebook as its interactive features will make “assignments” easier to navigate.</p>
 
 </div>
 </div>
@@ -217,20 +225,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>

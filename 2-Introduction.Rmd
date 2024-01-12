@@ -7,7 +7,7 @@ First, it should be noted that `R` and `RStudio` are actually two different thin
  - `R` is a programming language
  - `RStudio` is an application that provides a more user-friendly environment to use `R`
 
-But besides that, what is the importance of R? R is a powerful tool for statistics and data analysis, and is very attractive for both research and data science broadly. On top of this, it is accessible; R and RStudio are both free and open-source. This accessibility has resulted in a large community where learning and getting help is fast and easy.
+But besides that, what is the importance of R? R is a powerful tool for statistics and data analysis, and is very attractive for both research and data science broadly. On top of this, it is accessible; R and RStudio are both free and open-source. This accessibility has resulted in a large community where learning and getting help is fast and easy. Please watch this short 5 minute video: https://www.youtube.com/watch?v=IJc2J-qewiU
  
 
 ## Installing R and RStudio
@@ -28,8 +28,12 @@ For Mac users
 Please watch this short 6 minute video to get started with RStudio. This video does include some simple coding as an example, but don't worry if you don't understand that for now. Focus just on the interface for the time being.
 https://www.youtube.com/watch?v=FIrsOBy5k58&t=242s  
 
+![Overview of the RStudio interface](https://datacarpentry.org/genomics-r-intro/fig/rstudio_session_4pane_layout.png)
 
-Feel free to change the theme of your RStudio window (like changing it to dark mode) before we go further! You can access this by Tools -> Global Options -> Apperance, and then selecting a new theme. Highlight them all and see what you like, or feel free to change your font size or type.  
+Feel free to change the theme of your RStudio environemt (like changing it to a much better dark mode) before we go further! You can do this by navigating to Tools -> Global Options -> Appearance. Below is an image of what this window looks like. Here, you are about to change the editor theme, along with the font and font size if desired.
 
-## Script vs. notebook vs. markdown?
-There are essentially three different file types to note when it comes to creating R code: script, notebook, and markdown. To put it simply, script is all manual and notebook/markdown are interactive scripts. The exact differece isn't important right now, but some people have preferences for one or the other. This course will be using notebooks.
+
+![Apperance editor window](https://docs.posit.co/ide/user/ide/guide/ui/images/rstudio-theme.png){width=75%}
+
+## R file types
+Navigating to File -> New File, you can see there are a ton of different file options to choose from. For this course (and honestly even for our lab), you really only need to know about two of these options: R Script and R Notebook. These are documents where you are able to write and execute code. The difference between the two is formatting. R Script is essentially a blank word document whereas R Notebook allows more interactive elements. Choosing between the two is largely based on preference or sometimes the task. For this course, we will be using R Notebook as its interactive features will make "assignments" easier to navigate.
