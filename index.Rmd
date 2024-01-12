@@ -16,6 +16,9 @@ Welcome to the Winter 2024 R Workshop with the Mende-Siedlecki Lab! Gavin and Ya
 ## Important note
 Before we begin, we want to emphasize that learning R/RStudio (or any type of programming) is challenging and likely a novel topic for most of you. Therefore, it is completely normal to feel confused or overwhelmed at times. Please do not worry if you do not understand everything perfectly right away! Know that you will NOT be judged for asking questions or needing more time to learn certain topics. We are here to help!
 
+## Navigating this browser
+Think of this browser as a textbook. You can navigate the contents on the left (toggled by the 'hamburger' icon on the top left of your screen). Feel free to click on the 'A' at the top of the screen to change text size, or to change the browser to dark mode.
+
 ## Acknowledgements
 - [David Dalpiaz - Applied Statistics with R](https://book.stat420.org/)
 - [Luka Ignjatović - DataCamp ](https://github.com/LukaIgnjatovic)

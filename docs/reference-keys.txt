@@ -17,3 +17,4 @@ variable-assignment
 summary-statistics
 plotting
 r-file-types
+navigating-this-browser
