@@ -1,199 +1,161 @@
 ---
-title: "Assignment 1 (Chapter 3)"
+title: "Assignment 1: Navigating R Studio"
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook (can do by pressing the 'play' button in the top right of code chunks), the results appear beneath the code. 
+This will be much more usual friendly if you go through this file is 'Visual' mode! Press the 'Visual' button above (it should be RIGHT above the "title" of this document).
 
-Try executing this chunk by clicking the *Run/Play* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+# Navigating RStudio
+
+This is an **R Notebook**. When you execute code within the notebook, the results appear beneath the code. Try executing this chunk by clicking the *Run/Play* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*.
 
 ```{r}
 2 + 3
 ```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+Now try executing a chunk with multiple equations. Feel free to edit inside it to play around! Simple click inside the code chunk and type like a normal word document. Play around with the different equations!
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
-
-
-
-
-## Intro to basics
-
-In this chapter, you will take your first steps with R. You will learn how to use the console as a calculator and how to assign variables. You will also get to know the basic data types in R. Let's get started!
-
-### How it works
-
-In the editor on the right you should type R code to solve the exercises. When you hit the 'Submit Answer' button, every line of code is interpreted and executed by R and you get a message whether or not your code was correct. The output of your R code is shown in the console in the lower right corner.
-
-R makes use of the `#` sign to add comments, so that you and others can understand what the R code is about. Just like Twitter! Comments are not run as R code, so they will not influence your result. For example, *Calculate 3 + 4* in the editor on the right is a comment.
-
-You can also execute R commands straight in the console. This is a good way to experiment with R code, as your submission is not checked for correctness.
-
-#### Instructions
-* *In the editor on the right there is already some sample code. Can you see which lines are actual R code and which are comments?*
-* *Add a line of code that calculates the sum of 6 and 12, and hit the 'Submit Answer' button.*
 ```{r}
-# Calculate 3 + 4
-3 + 4
-
-# Calculate 6 + 12
-6 + 12
+2 + 3
+2 - 3
+2 * 3
+2 / 3
+2 ^ 3
 ```
 
-**Awesome! See how the console shows the result of the R code you submitted? Now that you're familiar with the interface, let's get down to R business!**
+You are able to write freely when outside of a code chunk. However, within a code chunk, R sees everything as code and won't know how to process random sentences and words. To comment inside a code chunk, simply include a *\#* beforehand. Comments are incredibly helpful for both you and the viewer of your code, and we encourage you to get in the habit of annotating your code as you go!
 
-### Arithmetic with R
+Try running this code chunk below. Then, delete the *\#* and notice the error that occurs.
 
-In its most basic form, R can be used as a simple calculator. Consider the following arithmetic operators:
-
-* Addition: **`+`**
-* Subtraction: **`-`**
-* Multiplication: **`*`**
-* Division: **`/`**
-* Exponentiation: **`^`**
-* Modulo: **`%%`**
-
-The last two might need some explaining:
-
-* The `^` operator raises the number to its left to the power of the number to its right: for example `3^2` is 9.
-* The modulo returns the remainder of the division of the number to the left by the number on its right, for example 5 modulo 3 or `5 %% 3` is 2.
-
-With this knowledge, follow the instructions below to complete the exercise.
-
-#### Instructions
-* *Type* `2^5` *in the editor to calculate 2 to the power 5.*
-* *Type* `28 %% 6` *to calculate 28 modulo 6.*
-* *Click 'Submit Answer' and have a look at the R output in the console.*
-* *Note how the* `#` *symbol is used to add comments on the R code.*
 ```{r}
-# An addition
-5 + 5 
-
-# A subtraction
-5 - 5 
-
-# A multiplication
-3 * 5
-
-# A division
-(5 + 5) / 2 
-
-# Exponentiation
-2 ^ 5
-
-# Modulo
-28 %% 6
+# This is a comment. Below is an equation to solve for 5 minus 2.
+5 - 2
 ```
 
-**Great! Head over to the next exercise.**
+### Try creating a code chunk yourself!!
 
-### Variable assignment
+Add a new chunk below this by clicking the *Code -\> Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*. Inside your chunk, (1) create a comment describing your current feelings towards R. Next, think of a very simple equation, and (2) create a comment describing what the equation will solve and then (3) write this equation out and run it.
 
-A basic concept in (statistical) programming is called a **variable**.
+# Working with variables
 
-A variable allows you to store a value (e.g. 4) or an object (e.g. a function description) in R. You can then later use this variable's name to easily access the value or the object that is stored within this variable.
+Now that you have a better sense of navigating R and using basic arithmetics- lets jump into creating variables! Let's start with a basic variable named my_apples. Run this code, and notice in your environment (top right window of RStudio) that a variable my_apples has been added! *Note: that variables cannot have invalid characters, such as spaces. Try replacing the underscore with a space and seeing the error that follows!*
 
-You can assign a value 4 to a variable `my_var` with the command:
-
-    my_var <- 4
-
-#### Instructions
-*Over to you: complete the code in the editor such that it assigns the value 42 to the variable* `x` *in the editor. Click 'Submit Answer'. Notice that when you ask R to print* `x`*, the value 42 appears.*
 ```{r}
-# Assign the value 42 to x
-x <- 42
-
-# Print out the value of the variable x
-x
-```
-
-**Good job! Have you noticed that R does not print the value of a variable to the console when you did the assignment?** `x <- 42` **did not generate any output, because R assumes that you will be needing this variable in the future. Otherwise you wouldn't have stored the value in a variable in the first place, right? Proceed to the next exercise!**
-
-### Variable assignment (2)
-
-Suppose you have a fruit basket with five apples. As a data analyst in training, you want to store the number of apples in a variable with the name `my_apples`.
-
-#### Instructions
-* *Type the following code in the editor:* `my_apples <- 5`*. This will assign the value 5 to* `my_apples`*.*
-* *Type:* `my_apples` *below the second comment. This will print out the value of* `my_apples`*.*
-* *Click 'Submit Answer', and look at the console: you see that the number 5 is printed. So R now links the variable* `my_apples` *to the value 5.*
-```{r}
-# Assign the value 5 to the variable my_apples
+# Assinging the value of 5 to my_apples
 my_apples <- 5
+```
 
-# Print out the value of the variable my_apples
+Additionally, if you ever want to remind yourself what my_apples is, you can print my_apples using code and have the output tell you the value. Try running this code below.
+
+```{r}
+# Print the value of my_apples
 my_apples
 ```
 
-**Great! Continue to the next exercise!**
+But uh oh! You got hungry and ate an apple. How can we represent that? Well, there are multiple different ways we could do that. The first is simply reassigning my_apples to the number 4. Run this code, and notice in the environment
 
-### Variable assignment (3)
-
-Every tasty fruit basket needs oranges, so you decide to add six oranges. As a data analyst, your reflex is to immediately create the variable `my_oranges` and assign the value 6 to it. Next, you want to calculate how many pieces of fruit you have in total. Since you have given meaningful names to these values, you can now code this in a clear way:
-
-    my_apples + my_oranges
-
-#### Instructions
-* *Assign to* `my_oranges` *the value 6.*
-* *Add the variables* `my_apples` *and* `my_oranges` *and have R simply print the result.*
-* *Assign the result of adding* `my_apples` *and* `my_oranges` *to a new variable* `my_fruit`*.*
 ```{r}
-# Assign a value to the variables my_apples and my_oranges
+# Assign the value of 4 to my_apples
+my_apples <- 4
+# Print the value of my_apples
+my_apples
+```
+
+While this works, it is not very practical. Imagine you were working with very large values and a large number of variables. Manually reassigning every variables would be a terrible idea. So instead, you can actually assign a variable to itself with basic math like we did above. Here is an example.
+
+```{r}
+# Reassigning the value of 5 to my_apples
 my_apples <- 5
-my_oranges <- 6
 
-# Add these two variables together
-my_apples + my_oranges
+# Print the current value of my_apples
+my_apples
 
-# Create the variable my_fruit
-my_fruit <- my_apples + my_oranges
+# Assign my_apples to whatever my_apples was minus 1
+my_apples <- my_apples - 1
+
+# Print the new value of my_apples
+my_apples
 ```
 
-**Nice one! The great advantage of doing calculations with variables is reusability. If you just change** `my_apples` **to equal 12 instead of 5 and rerun the script,** `my_fruit` **will automatically update as well. Continue to the next exercise.**
+You can even do math using only variables instead of numbers. For example, let's double the amount of apples we have. (Just like in real math, you can do this by multiplying or adding the value by itself. For this example, we are adding.)
 
-### Apples and oranges
-
-Common knowledge tells you not to add apples and oranges. But hey, that is what you just did, no? The `my_apples` and `my_oranges` variables both contained a number in the previous exercise. The `+` operator works with numeric variables in R. If you really tried to add "apples" and "oranges", and assigned a text value to the variable `my_oranges` (see the editor), you would be trying to assign the addition of a numeric and a character variable to the variable `my_fruit`. This is not possible.
-
-#### Instructions
-* *Click 'Submit Answer' and read the error message. Make sure to understand why this did not work.*
-* *Adjust the code so that R knows you have 6 oranges and thus a fruit basket with 11 pieces of fruit.*
 ```{r}
-# Assign a value to the variable my_apples
-my_apples <- 5 
+# Reassigning the value of 5 to my_apples
+my_apples <- 5
 
-# Fix the assignment of my_oranges
-my_oranges <- "six"
-my_oranges <- 6
+# Double the amount of apples
+my_apples <- my_apples + my_apples
 
-# Create the variable my_fruit and print it out
-my_fruit <- my_apples + my_oranges 
-my_fruit
+# Print the new value of my_apples
+my_apples
 ```
 
-**Awesome, keep up the good work! Continue to the next exercise.**
+Note: you won't always have to reassign the value of 5 to my_apples. We are only doing it here in case you run any chunks out of order. But at this point, we are going to show you a couple of examples. The first is the case when you simply tell R to print my_apples with math. Run the code a few times and notice the output.
 
-### Basic data types in R
+```{r}
+# Print my_apples
+my_apples
 
-R works with numerous data types. Some of the most basic types to get started are:
+# Print my_apples minus 1
+my_apples - 1
+```
 
-* Decimals values like `4.5` are called **numerics**.
-* Natural numbers like `4` are called **integers**. Integers are also numerics.
-* Boolean values (`TRUE` or `FALSE`) are called **logical**.
-* Text (or string) values are called **characters**.
+Spoiler: it never changed! That is because you never changed the value of my_apples- you simply told R to output the number minus the value of 1! However, if you did reassign the values, note it will continuously decrease by the amount. Run this next code chunk a few times to see for yourself.
 
-Note how the quotation marks on the right indicate that "some text" is a character.
+```{r}
+# Print my_apples
+my_apples
 
-#### Instructions
-*Change the value of the:*
+# Assign my_apples to my_apples minus 1
+my_apples <- my_apples - 1
 
-* `my_numeric` *variable to* `42`*.*
-* `my_character` *variable to* `"universe"`*. Note that the quotation marks indicate that* `"universe"` *is a character.*
-* `my_logical` *variable to* `FALSE`*.*
+# Print the new value of my_apples
+my_apples
+```
 
-*Note that R is case sensitive!*
+## Practice with variables
+
+Try it yourself! For this, we are going to explicitly tell you what to write, and you will be in charge of filling in the code chunks underneath our comments.
+
+(1) **Let's create a new variable titled "my_oranges". We will assign the value 3 to oranges.**
+
+```{r}
+# Create a new varaible my_oranges with a value of 3 below
+
+```
+
+(2) **Notice that my_apples should still be in your environment after running the above code! Just in case you ran any of the chunks out of order, we are going to remind R what "my_apples" is. Your job now is to create a new variable titled "total_fruit"**
+
+```{r}
+# Reminding R what apples is. Run this BEFORE the next code chunk!
+my_apples <- 5
+```
+
+```{r}
+# Create a new variable called total_fruit taking apples plus oranges
+
+```
+
+(3) **Now let's say you ate 2 apples. Below, subtract my_apples by two, and then execute the total_fruit variable above. Notice how it uses the latest version of my_apples as opposed to the value listed above. In R, variables are always assigned based on the last code run. Feel free to rerun this code a few times, and reset with the my_apples \<- 5 above anytime you'd like.**
+
+```{r}
+# Subtract your number of apples by 2
+
+```
+
+# Data types
+
+### Recap of data types in R
+
+-   Decimals values like `4.5` are called **numerics**.
+-   Natural numbers like `4` are called **integers**. Integers are also numerics.
+-   Boolean values (`TRUE` or `FALSE`) are called **logical**.
+-   Text (or string) values are called **characters** `"character"` .
+-   **Complex** is also a data type- we will not be discussing that further at the moment.
+
+Characters are surrounded by quotation marks. You can either use " or ' as quotation marks actually, as long as they are consistent (if you begin with one type, you must end with the same type).
+
+Run the code below for an example of the data types! *Note that R is case sensitive! Try running my_logical with lowercase FALSE to see what happens!*
+
 ```{r}
 # Change my_numeric to be 42
 my_numeric <- 42
@@ -203,30 +165,29 @@ my_character <- "universe"
 
 # Change my_logical to be FALSE
 my_logical <- FALSE
+
+# Display all three examples
+my_numeric
+my_character
+my_logical
 ```
 
-**Great work! Continue to the next exercise.**
+If you are ever confused about what data type you are working with, you can actually ask R to help you by calling the function "class". The format is **`class`**`(insert_variable)`. Before you run the code, make a guess what you think the data type will be. Feel free to play around and change stuff in here if you want!
 
-### What's that data type?
-
-Do you remember that when you added `5 + "six"`, you got an error due to a mismatch in data types? You can avoid such embarrassing situations by checking the data type of a variable beforehand. You can do this with the `class()` function, as the code on the right shows.
-
-#### Instructions
-*Complete the code in the editor and also print out the classes of* `my_character` *and* `my_logical`*.*
 ```{r}
 # Declare variables of different types
-my_numeric <- 42
-my_character <- "universe"
-my_logical <- FALSE 
+first_variable <- TRUE
+second_variable <- 20
+third_variable <- "20"
 
 # Check class of my_numeric
-class(my_numeric)
+class(first_variable)
 
 # Check class of my_character
-class(my_character)
+class(second_variable)
 
 # Check class of my_logical
-class(my_logical)
+class(third_variable)
 ```
 
 **Congratulations! This was the last exercise for this chapter. Head over to the next chapter to get immersed in the world of vectors!**

@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=FIrsOBy5k58&t=242s
 
 ![Overview of the RStudio interface](https://datacarpentry.org/genomics-r-intro/fig/rstudio_session_4pane_layout.png)
 
-Feel free to change the theme of your RStudio environemt (like changing it to a much better dark mode) before we go further! You can do this by navigating to Tools -> Global Options -> Appearance. Below is an image of what this window looks like. Here, you are about to change the editor theme, along with the font and font size if desired.
+Feel free to change the theme of your RStudio environment (like changing it to a much better dark mode) before we go further! You can do this by navigating to Tools -> Global Options -> Appearance. Below is an image of what this window looks like. Here, you are about to change the editor theme, along with the font and font size if desired.
 
 
 ![Apperance editor window](https://docs.posit.co/ide/user/ide/guide/ui/images/rstudio-theme.png){width=75%}

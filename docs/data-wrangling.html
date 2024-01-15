@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Page not found | R Workshop</title>
-  <meta name="description" content="Page not found | R Workshop" />
+  <title>Chapter 5 Data wrangling | R Workshop</title>
+  <meta name="description" content="Chapter 5 Data wrangling | R Workshop" />
   <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Page not found | R Workshop" />
+  <meta property="og:title" content="Chapter 5 Data wrangling | R Workshop" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Page not found | R Workshop" />
+  <meta name="twitter:title" content="Chapter 5 Data wrangling | R Workshop" />
   
   
   
@@ -29,7 +29,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
+<link rel="prev" href="working-with-data.html"/>
 
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -159,6 +159,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.2" data-path="getting-started.html"><a href="getting-started.html#variable-assignment"><i class="fa fa-check"></i><b>3.2</b> Variable assignment</a></li>
 <li class="chapter" data-level="3.3" data-path="getting-started.html"><a href="getting-started.html#basic-data-types"><i class="fa fa-check"></i><b>3.3</b> Basic data types</a></li>
 </ul></li>
+<li class="chapter" data-level="4" data-path="working-with-data.html"><a href="working-with-data.html"><i class="fa fa-check"></i><b>4</b> Working with data</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="working-with-data.html"><a href="working-with-data.html#what-are-packages"><i class="fa fa-check"></i><b>4.1</b> What are packages?</a></li>
+<li class="chapter" data-level="4.2" data-path="working-with-data.html"><a href="working-with-data.html#logical-operators"><i class="fa fa-check"></i><b>4.2</b> Logical operators</a></li>
+<li class="chapter" data-level="4.3" data-path="working-with-data.html"><a href="working-with-data.html#data-structures"><i class="fa fa-check"></i><b>4.3</b> Data structures</a></li>
+<li class="chapter" data-level="4.4" data-path="working-with-data.html"><a href="working-with-data.html#summary-statistics"><i class="fa fa-check"></i><b>4.4</b> Summary statistics</a></li>
+<li class="chapter" data-level="4.5" data-path="working-with-data.html"><a href="working-with-data.html#plotting"><i class="fa fa-check"></i><b>4.5</b> Plotting</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-wrangling.html"><a href="data-wrangling.html"><i class="fa fa-check"></i><b>5</b> Data wrangling</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="data-wrangling.html"><a href="data-wrangling.html#tidying-data"><i class="fa fa-check"></i><b>5.1</b> Tidying data</a></li>
+<li class="chapter" data-level="5.2" data-path="data-wrangling.html"><a href="data-wrangling.html#pipes"><i class="fa fa-check"></i><b>5.2</b> Pipes</a></li>
+</ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -178,18 +191,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="page-not-found" class="section level1">
-<h1>Page not found</h1>
-<p>The page you requested cannot be found (perhaps it was moved or renamed).</p>
-<p>You may want to try searching to find the page's new location, or use
-the table of contents to find the page you are looking for.</p>
+<div id="data-wrangling" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Data wrangling<a href="data-wrangling.html#data-wrangling" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="tidying-data" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Tidying data<a href="data-wrangling.html#tidying-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="pipes" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Pipes<a href="data-wrangling.html#pipes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
+<a href="working-with-data.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
     </div>
   </div>
@@ -221,7 +238,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/gavin-mullin/R-Workshop-2024/edit/main/%s",
+"link": "https://github.com/gavin-mullin/R-Workshop-2024/edit/main/5-DataWrangling.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -229,7 +246,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/gavin-mullin/R-Workshop-2024/blob/main/%s",
+"link": "https://github.com/gavin-mullin/R-Workshop-2024/blob/main/5-DataWrangling.Rmd",
 "text": null
 },
 "download": null,

@@ -1,7 +1,0 @@
-# Working with data
-
-## Variable assignment
-
-## Summary statistics
-
-## Plotting

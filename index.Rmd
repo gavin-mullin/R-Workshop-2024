@@ -7,7 +7,7 @@ link-citations: yes
 ---
 # Welcome!
 <center>
-![](https://pyxis.nymag.com/v1/imgs/836/766/6d48af4bc721045a59847a4459cc53e570-drag-race-laganja.jpg)
+![Jennifer Coolidge in White Lotus](https://i.dailymail.co.uk/1s/2022/11/28/05/64999105-11475953-image-a-96_1669613496034.jpg)
 </center>
 
 ## About this workshop
@@ -22,3 +22,4 @@ Think of this browser as a textbook. You can navigate the contents on the left (
 ## Acknowledgements
 - [David Dalpiaz - Applied Statistics with R](https://book.stat420.org/)
 - [Luka Ignjatović - DataCamp ](https://github.com/LukaIgnjatovic)
+- https://alexd106.github.io/intro2R/index.html

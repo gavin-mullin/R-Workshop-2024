@@ -4,41 +4,37 @@
 ## Basic operations
 Here, we will be going over the very basic operations involved in coding. Most of coding relates to mathematics and logic! For example, below is a table that features basic math (addition, subject, etc.), how it is written in R (pay attention to the symbols used), and its result.
 
-| Math          | `R` code| Result    |
-|---------------|---------|-----------|
-| $8 + 4$       | `8 + 4` | `r 8 + 4` |
-| $8 - 4$       | `8 - 4` | `r 8 - 4` |
-| $8 \cdot4$    | `8 * 4` | `r 8 * 4` |
-| $8 / 4$       | `8 / 4` | `r 8 / 4` |
-| $8^4$         | `8 ^ 4` | `r 8 ^ 4` |
+| Math          | `R` code      | Result        |
+|---------------|---------------|---------------|
+| $8 + 4$       | `8 + 4`       | `r 8 + 4`     |
+| $8 - 4$       | `8 - 4`       | `r 8 - 4`     |
+| $8 \cdot4$    | `8 * 4`       | `r 8 * 4`     |
+| $8 / 4$       | `8 / 4`       | `r 8 / 4`     |
+| $8^4$         | `8 ^ 4`       | `r 8 ^ 4`     |
+| $\sqrt{100}$  | `sqrt(100)`   | `r sqrt(100)` |
 
-## Logical operators
-| Operator | Summary               | Example               | Result |
-|----------|-----------------------|-----------------------|--------|
-| `x < y`  | `x` less than `y`                | `3 < 42`               | `r 3 < 42`               |
-| `x > y`  | `x` greater than `y`             | `3 > 42`               | `r 3 > 42`               |
-| `x <= y` | `x` less than or equal to `y`    | `3 <= 42`              | `r 3 <= 42`              |
-| `x >= y` | `x` greater than or equal to `y` | `3 >= 42`              | `r 3 >= 42`              |
-| `x == y` | `x`equal to `y`                  | `3 == 42`              | `r 3 == 42`              |
-| `x != y` | `x` not equal to `y`             | `3 != 42`              | `r 3 != 42`              |
-| `!x`     | not `x`                          | `!(3 > 42)`            | `r !(3 > 42)`            |
-| `x | y`  | `x` or `y`                       | `(3 > 42) | TRUE`      | `r (3 > 42) | TRUE`      |
-| `x & y`  | `x` and `y`                      | `(3 < 4) & ( 42 > 13)` | `r (3 < 4) & ( 42 > 13)` |
+## Variable assignment
+A variable is a basic concept in programming: it allows you to store a value or an object in R. You can then call this variable's name to easily access this value or object since it is already stored into R's memory. For instance, let's assign the variable X to a value of 1, and Y to a value of 2.
 
+```{r}
+# Assigning a value of 1 to 'X'
+X <- 1
+# Assigning a value of 2 to 'Y'
+Y <- 2
+```
+
+Notice the use of `<-`. You can think of this as an equal sign (=). This is the symbol combination used to assign a value to a variable. Logically, know that the value points to the variables saying "hey, this value is what this varaible should be".
 
 ## Basic data types
 There are 5 data types to know of:
 
-- Character
-- Numeric
-- Integer
-- Logical
-- Complex
+- **Character:** Letters and words. For instance, in research, this could be seen in data as categorical variables like gender identity: `man`.
+- **Logical:** These result in two possible values: `TRUE` or `FALSE`  (or `NA`...).
+- **Numeric:** This is typically the default when dealing with numbers. These include numbers with decimal points. `1`, `1.5`, `10.2`.
+- **Integer:** These are WHOLE numbers without decimals `1` `5` `10`.
+- **Complex:** This is something we will just gloss over- in sum, an equation with an imaginary number `2 + 5i`.
 
-## Data structures
-| Dimension | **Homogeneous** | **Heterogeneous** |
-|-----------|-----------------|-------------------|
-| 1         | Vector          | List              |
-| 2         | Matrix          | Data Frame        |
-| 3+        | Array           |                   |
+
+
+
 

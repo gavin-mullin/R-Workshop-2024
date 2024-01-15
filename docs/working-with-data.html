@@ -30,7 +30,7 @@
   
   
 <link rel="prev" href="getting-started.html"/>
-
+<link rel="next" href="data-wrangling.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -53,6 +53,70 @@
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -79,27 +143,34 @@
 <ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#about-this-workshop"><i class="fa fa-check"></i><b>1.1</b> About this workshop</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#important-note"><i class="fa fa-check"></i><b>1.2</b> Important note</a></li>
-<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#acknowledgements"><i class="fa fa-check"></i><b>1.3</b> Acknowledgements</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#navigating-this-browser"><i class="fa fa-check"></i><b>1.3</b> Navigating this browser</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#acknowledgements"><i class="fa fa-check"></i><b>1.4</b> Acknowledgements</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#what-are-r-and-rstudio"><i class="fa fa-check"></i><b>2.1</b> What are R and RStudio?</a></li>
 <li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#installing-r-and-rstudio"><i class="fa fa-check"></i><b>2.2</b> Installing R and RStudio</a></li>
 <li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#the-rstudio-interface"><i class="fa fa-check"></i><b>2.3</b> The RStudio interface</a></li>
-<li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#script-vs.-notebook-vs.-markdown"><i class="fa fa-check"></i><b>2.4</b> Script vs. notebook vs. markdown?</a></li>
+<li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#r-file-types"><i class="fa fa-check"></i><b>2.4</b> R file types</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>3</b> Getting started</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="getting-started.html"><a href="getting-started.html#basic-operations"><i class="fa fa-check"></i><b>3.1</b> Basic operations</a></li>
-<li class="chapter" data-level="3.2" data-path="getting-started.html"><a href="getting-started.html#logical-operators"><i class="fa fa-check"></i><b>3.2</b> Logical operators</a></li>
+<li class="chapter" data-level="3.2" data-path="getting-started.html"><a href="getting-started.html#variable-assignment"><i class="fa fa-check"></i><b>3.2</b> Variable assignment</a></li>
 <li class="chapter" data-level="3.3" data-path="getting-started.html"><a href="getting-started.html#basic-data-types"><i class="fa fa-check"></i><b>3.3</b> Basic data types</a></li>
-<li class="chapter" data-level="3.4" data-path="getting-started.html"><a href="getting-started.html#data-structures"><i class="fa fa-check"></i><b>3.4</b> Data structures</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="working-with-data.html"><a href="working-with-data.html"><i class="fa fa-check"></i><b>4</b> Working with data</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="working-with-data.html"><a href="working-with-data.html#variable-assignment"><i class="fa fa-check"></i><b>4.1</b> Variable assignment</a></li>
-<li class="chapter" data-level="4.2" data-path="working-with-data.html"><a href="working-with-data.html#summary-statistics"><i class="fa fa-check"></i><b>4.2</b> Summary statistics</a></li>
-<li class="chapter" data-level="4.3" data-path="working-with-data.html"><a href="working-with-data.html#plotting"><i class="fa fa-check"></i><b>4.3</b> Plotting</a></li>
+<li class="chapter" data-level="4.1" data-path="working-with-data.html"><a href="working-with-data.html#what-are-packages"><i class="fa fa-check"></i><b>4.1</b> What are packages?</a></li>
+<li class="chapter" data-level="4.2" data-path="working-with-data.html"><a href="working-with-data.html#logical-operators"><i class="fa fa-check"></i><b>4.2</b> Logical operators</a></li>
+<li class="chapter" data-level="4.3" data-path="working-with-data.html"><a href="working-with-data.html#data-structures"><i class="fa fa-check"></i><b>4.3</b> Data structures</a></li>
+<li class="chapter" data-level="4.4" data-path="working-with-data.html"><a href="working-with-data.html#summary-statistics"><i class="fa fa-check"></i><b>4.4</b> Summary statistics</a></li>
+<li class="chapter" data-level="4.5" data-path="working-with-data.html"><a href="working-with-data.html#plotting"><i class="fa fa-check"></i><b>4.5</b> Plotting</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-wrangling.html"><a href="data-wrangling.html"><i class="fa fa-check"></i><b>5</b> Data wrangling</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="data-wrangling.html"><a href="data-wrangling.html#tidying-data"><i class="fa fa-check"></i><b>5.1</b> Tidying data</a></li>
+<li class="chapter" data-level="5.2" data-path="data-wrangling.html"><a href="data-wrangling.html#pipes"><i class="fa fa-check"></i><b>5.2</b> Pipes</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -122,14 +193,119 @@
             <section class="normal" id="section-">
 <div id="working-with-data" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">Chapter 4</span> Working with data<a href="working-with-data.html#working-with-data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="variable-assignment" class="section level2 hasAnchor" number="4.1">
-<h2><span class="header-section-number">4.1</span> Variable assignment<a href="working-with-data.html#variable-assignment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="what-are-packages" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> What are packages?<a href="working-with-data.html#what-are-packages" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="summary-statistics" class="section level2 hasAnchor" number="4.2">
-<h2><span class="header-section-number">4.2</span> Summary statistics<a href="working-with-data.html#summary-statistics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="logical-operators" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Logical operators<a href="working-with-data.html#logical-operators" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There are also a number of logical operators involved in R. You likely are familiar with these concepts through greater than and less than inequalities! Here is a table that spells out many of the operations, how it would be coded in R, and the output R gives. Notice the logic results in “TRUE” or “FALSE”. This concept might be familiar if you have used Excel.</p>
+<table>
+<colgroup>
+<col width="15%" />
+<col width="35%" />
+<col width="35%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Summary</th>
+<th>Example</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>x &lt; y</code></td>
+<td><code>x</code> less than <code>y</code></td>
+<td><code>3 &lt; 42</code></td>
+<td>TRUE</td>
+</tr>
+<tr class="even">
+<td><code>x &gt; y</code></td>
+<td><code>x</code> greater than <code>y</code></td>
+<td><code>3 &gt; 42</code></td>
+<td>FALSE</td>
+</tr>
+<tr class="odd">
+<td><code>x &lt;= y</code></td>
+<td><code>x</code> less than or equal to <code>y</code></td>
+<td><code>3 &lt;= 42</code></td>
+<td>TRUE</td>
+</tr>
+<tr class="even">
+<td><code>x &gt;= y</code></td>
+<td><code>x</code> greater than or equal to <code>y</code></td>
+<td><code>3 &gt;= 42</code></td>
+<td>FALSE</td>
+</tr>
+<tr class="odd">
+<td><code>x == y</code></td>
+<td><code>x</code>equal to <code>y</code></td>
+<td><code>3 == 42</code></td>
+<td>FALSE</td>
+</tr>
+<tr class="even">
+<td><code>x != y</code></td>
+<td><code>x</code> not equal to <code>y</code></td>
+<td><code>3 != 42</code></td>
+<td>TRUE</td>
+</tr>
+<tr class="odd">
+<td><code>!x</code></td>
+<td>not <code>x</code></td>
+<td><code>!(3 &gt; 42)</code></td>
+<td>TRUE</td>
+</tr>
+<tr class="even">
+<td><code>x | y</code></td>
+<td><code>x</code> or <code>y</code></td>
+<td><code>(3 &gt; 42) | TRUE</code></td>
+<td>TRUE</td>
+</tr>
+<tr class="odd">
+<td><code>x &amp; y</code></td>
+<td><code>x</code> and <code>y</code></td>
+<td><code>(3 &lt; 4) &amp; ( 42 &gt; 13)</code></td>
+<td>TRUE</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="plotting" class="section level2 hasAnchor" number="4.3">
-<h2><span class="header-section-number">4.3</span> Plotting<a href="working-with-data.html#plotting" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="data-structures" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Data structures<a href="working-with-data.html#data-structures" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<table>
+<thead>
+<tr class="header">
+<th>Dimension</th>
+<th><strong>Homogeneous</strong></th>
+<th><strong>Heterogeneous</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Vector</td>
+<td>List</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Matrix</td>
+<td>Data Frame</td>
+</tr>
+<tr class="odd">
+<td>3+</td>
+<td>Array</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="summary-statistics" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Summary statistics<a href="working-with-data.html#summary-statistics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="plotting" class="section level2 hasAnchor" number="4.5">
+<h2><span class="header-section-number">4.5</span> Plotting<a href="working-with-data.html#plotting" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 
 </div>
 </div>
@@ -138,8 +314,8 @@
           </div>
         </div>
       </div>
-<a href="getting-started.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="getting-started.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-wrangling.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
