@@ -12,3 +12,12 @@ getting-started
 basic-operations
 variable-assignment
 basic-data-types
+working-with-data
+what-are-packages
+logical-operators
+data-structures
+summary-statistics
+plotting
+data-wrangling
+tidying-data
+pipes

@@ -2,7 +2,7 @@
 title: "Assignment 1: Navigating R Studio"
 ---
 
-This will be much more usual friendly if you go through this file is 'Visual' mode! Press the 'Visual' button above (it should be RIGHT above the "title" of this document).
+**This will be much more user friendly if you go through this file is 'Visual' mode! Press the 'Visual' button above (it should be directly above the "title" of this document).**
 
 # Navigating RStudio
 
