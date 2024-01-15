@@ -35,8 +35,12 @@ There are 5 data types to know of:
 - **Complex:** This is something we will just gloss over- in sum, an equation with an imaginary number `2 + 5i`.
 
 ## Download and complete the homework assignment!
+Open this link to download the first homework assignemnt. https://github.com/gavin-mullin/R-Workshop-2024/blob/main/ASSIGNMENTS/assignment1_chapter3.Rmd
 
-![]()
+This link will send you to Gavin's github page, specifically to the folder containing the homework. To download the assignemnet, clikc the three dots in the top right hand of your screen and click download. Alternatively, just click `ctrl-shift-s` on your keyboard while on the page.
+
+![](https://raw.githubusercontent.com/gavin-mullin/R-Workshop-2024/main/pics/github_screenshot.png)
+
 
 
 
