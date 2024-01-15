@@ -34,7 +34,9 @@ There are 5 data types to know of:
 - **Integer:** These are WHOLE numbers without decimals `1` `5` `10`.
 - **Complex:** This is something we will just gloss over- in sum, an equation with an imaginary number `2 + 5i`.
 
+## Download and complete the homework assignment!
 
+![]()
 
 
 

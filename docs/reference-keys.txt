@@ -12,3 +12,5 @@ getting-started
 basic-operations
 variable-assignment
 basic-data-types
+download-the-homework
+download-and-complete-the-homework-assignment
